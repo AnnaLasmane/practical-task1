@@ -1,0 +1,11 @@
+body {
+    overflow-x: hidden;
+}
+
+.carousel-indicators button {
+    display: none;
+}
+
+.about-us-upper-wrapper {
+    background-color: #198754;
+}
