@@ -1,22 +1,13 @@
-#bg {
-    background-position: center;
-    background-repeat: no-repeat;
-    /* background-size: cover; */
-    max-width: 100%;
-}
-
 .img-container {
-    position: relative;
-    left: 0px;
-    /* stick it wherever it was positioned by default */
-    top: 0px;
+    background-image: url("../images/main-background.jpg");
+    background-size: cover;
+    height: 92vh;
+    padding: 0px;
 }
 
 .main-heading {
-    position: absolute;
-    top: 150px;
-    right: 2px;
-    background-color: black;
+    background-color: #242526;
     color: white;
-    margin: 20px;
+    border-radius: 5px;
+    /* margin: 20px; */
 }
