@@ -15,10 +15,8 @@
 .main-heading {
     position: absolute;
     top: 150px;
-    right: 20px;
+    right: 2px;
     background-color: black;
     color: white;
-    padding-left: 20px;
-    padding-right: 20px;
-    margin-left: 20px;
+    margin: 20px;
 }
