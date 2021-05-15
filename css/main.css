@@ -1,17 +1,220 @@
+/* main page */
+
 .img-container {
     background-image: url("../images/main-background.jpg");
     background-size: cover;
-    height: 92vh;
+    height: 94vh;
     padding: 0px;
 }
 
 .main-heading {
-    background-color: #242526;
+    background-color: #28a745;
     color: white;
     border-radius: 5px;
-    /* margin: 20px; */
 }
 
 .heading {
     font-family: 'Dancing Script', cursive;
+}
+
+
+/* scrollbarr */
+
+body {
+    overflow-x: hidden;
+}
+
+::-webkit-scrollbar {
+    width: 15px;
+}
+
+ ::-webkit-scrollbar-track {
+    background: #f1f1f1;
+}
+
+ ::-webkit-scrollbar-thumb {
+    background: #888;
+}
+
+ ::-webkit-scrollbar-thumb:hover {
+    background: #555;
+}
+
+
+/* footer */
+
+footer {
+    color: #28a745;
+    ;
+}
+
+
+/* reviews carousel */
+
+.carousel-indicators button {
+    display: none;
+}
+
+.about-us-upper-wrapper {
+    background-color: #28a745;
+}
+
+.info-wrapper {
+    background: linear-gradient(90deg, #145838 50%, #ffc107 50%);
+    padding: 30px;
+}
+
+.specialists-img {
+    max-width: 200px;
+}
+
+.reviews-img {
+    max-width: 100px;
+}
+
+.link-success:hover {
+    background-color: #28a745;
+    color: white;
+    border-radius: 5px;
+}
+
+.link-success.active,
+.nav-pills .nav-link.active {
+    background-color: #ffc107;
+    color: white;
+    border-radius: 5px;
+}
+
+.form-signin,
+.signup-form {
+    height: 75vh;
+}
+
+.contacts {
+    background-image: url("../images/contacts.jpg");
+    background-size: cover;
+    height: 50vh;
+    padding: 0px;
+}
+
+
+/* forms */
+
+.form-signin {
+    width: 100%;
+    max-width: 330px;
+    padding: 15px;
+    margin: auto;
+}
+
+.form-signin .checkbox {
+    font-weight: 400;
+}
+
+.form-signin .form-floating:focus-within {
+    z-index: 2;
+}
+
+.form-signin input[type="email"] {
+    margin-bottom: -1px;
+    border-bottom-right-radius: 0;
+    border-bottom-left-radius: 0;
+}
+
+.form-signin input[type="password"] {
+    margin-bottom: 10px;
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+}
+
+.form-control {
+    height: 40px;
+    box-shadow: none;
+    ;
+}
+
+.form-control:focus {
+    border-color: #28a745;
+    ;
+}
+
+.form-control,
+.btn {
+    border-radius: 3px;
+}
+
+.signup-form {
+    width: 400px;
+    margin: 0 auto;
+    padding: 30px 0;
+}
+
+.signup-form h2 {
+    margin: 0 0 15px;
+    position: relative;
+    text-align: center;
+}
+
+.signup-form h2:before,
+.signup-form h2:after {
+    content: "";
+    height: 2px;
+    width: 30%;
+    background-color: #f5f5f5;
+    position: absolute;
+    top: 50%;
+    z-index: 2;
+}
+
+.signup-form h2:before {
+    left: 0;
+}
+
+.signup-form h2:after {
+    right: 0;
+}
+
+.signup-form .hint-text {
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+.signup-form .form-group {
+    margin-bottom: 20px;
+}
+
+.signup-form input[type="checkbox"] {
+    margin-top: 3px;
+}
+
+.signup-form .btn {
+    font-size: 16px;
+    font-weight: bold;
+    min-width: 140px;
+    outline: none !important;
+}
+
+.signup-form .row div:first-child {
+    padding-right: 10px;
+}
+
+.signup-form .row div:last-child {
+    padding-left: 10px;
+}
+
+.signup-form a {
+    text-decoration: underline;
+}
+
+.signup-form a:hover {
+    text-decoration: none;
+}
+
+.signup-form form a {
+    color: #3f833f;
+    text-decoration: none;
+}
+
+.signup-form form a:hover {
+    text-decoration: underline;
 }
