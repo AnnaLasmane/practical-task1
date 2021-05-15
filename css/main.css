@@ -1,17 +1,61 @@
 .img-container {
     background-image: url("../images/main-background.jpg");
     background-size: cover;
-    height: 92vh;
+    height: 94vh;
     padding: 0px;
 }
 
 .main-heading {
-    background-color: #242526;
+    background-color: #145838;
     color: white;
     border-radius: 5px;
-    /* margin: 20px; */
 }
 
 .heading {
     font-family: 'Dancing Script', cursive;
+}
+
+body {
+    overflow-x: hidden;
+}
+
+.carousel-indicators button {
+    display: none;
+}
+
+.about-us-upper-wrapper {
+    background-color: #198754;
+}
+
+.info-wrapper {
+    background: linear-gradient(90deg, #145838 50%, #ffc107 50%);
+    padding: 30px;
+}
+
+.specialists-img {
+    max-width: 200px;
+}
+
+.reviews-img {
+    max-width: 100px;
+}
+
+.link-success:hover {
+    background-color: #198754;
+    color: white;
+    border-radius: 5px;
+}
+
+.link-success.active,
+.nav-pills .nav-link.active {
+    background-color: #ffc107;
+    color: white;
+    border-radius: 5px;
+}
+
+.contacts {
+    background-image: url("../images/contacts.jpg");
+    background-size: cover;
+    height: 50vh;
+    padding: 0px;
 }
