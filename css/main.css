@@ -1,3 +1,5 @@
+/* main page */
+
 .img-container {
     background-image: url("../images/main-background.jpg");
     background-size: cover;
@@ -6,7 +8,7 @@
 }
 
 .main-heading {
-    background-color: #145838;
+    background-color: #28a745;
     color: white;
     border-radius: 5px;
 }
@@ -15,20 +17,46 @@
     font-family: 'Dancing Script', cursive;
 }
 
+
+/* scrollbarr */
+
 body {
     overflow-x: hidden;
 }
 
-footer {
-    color: #145838;
+::-webkit-scrollbar {
+    width: 15px;
 }
+
+ ::-webkit-scrollbar-track {
+    background: #f1f1f1;
+}
+
+ ::-webkit-scrollbar-thumb {
+    background: #888;
+}
+
+ ::-webkit-scrollbar-thumb:hover {
+    background: #555;
+}
+
+
+/* footer */
+
+footer {
+    color: #28a745;
+    ;
+}
+
+
+/* reviews carousel */
 
 .carousel-indicators button {
     display: none;
 }
 
 .about-us-upper-wrapper {
-    background-color: #198754;
+    background-color: #28a745;
 }
 
 .info-wrapper {
@@ -45,7 +73,7 @@ footer {
 }
 
 .link-success:hover {
-    background-color: #198754;
+    background-color: #28a745;
     color: white;
     border-radius: 5px;
 }
@@ -68,6 +96,9 @@ footer {
     height: 50vh;
     padding: 0px;
 }
+
+
+/* forms */
 
 .form-signin {
     width: 100%;
@@ -103,7 +134,8 @@ footer {
 }
 
 .form-control:focus {
-    border-color: #297929;
+    border-color: #28a745;
+    ;
 }
 
 .form-control,
