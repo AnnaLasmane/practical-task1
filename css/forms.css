@@ -49,6 +49,7 @@ h1 {
 button {
     margin: 20px;
     color: black;
+    background-color: rgb(241, 241, 41);
     border-radius: 5px;
     font-size: 20px;
     padding: 12px 70px;
